@@ -1,0 +1,36 @@
+html {
+    font-family: Arial, "Times New Roman", sans-serif;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    font-family: inherit;
+    box-sizing: inherit;
+}
+
+.menu {
+    width: 500px;
+    margin: 50px auto;
+    border: 5px solid white;
+    padding: 10px;
+}
+
+.title {
+    text-align: center;
+    border-bottom: 5px dotted white;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.recipes {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+li {
+    margin: 10px;
+    font-size: 24px;
+}
