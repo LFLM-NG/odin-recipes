@@ -1,0 +1,22 @@
+html {
+    font-family: Arial, "Times New Roman", sans-serif;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    font-family: inherit;
+    box-sizing: inherit;
+}
+
+.home {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+img {
+    height: 500px;
+    width: auto;
+}
